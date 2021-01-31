@@ -1,0 +1,100 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 120px;
+	background: #252329;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+    margin-left: -100%;
+    margin-top: -5%;
+    
+}
+
+nav {
+	float: right;
+    line-height: 100px;
+    position:  sticky;
+    margin-top: -14% ;
+    margin-right: -5%;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 2px;
+	font-size: 20px;
+    margin: 0 10px;
+    color: #f5f4db;
+    padding: 25px;
+}
+a:hover {
+    color: #cf6a00 ;
+  }
+.banner-area {
+	width: 100%;
+	height: 1000px;
+	position: fixed;
+	top: 100px;
+	background-image: url(pozadie.jpeg);
+    -webkit-background-size: cover;
+	background-size: cover;
+    background-position: center center ;
+    margin-top: -135px;
+    margin-right: ;
+}
+.banner-area h2{
+    margin-top: 11%;
+	padding-top: 8%;
+	font-size: 120px;
+	font-family: poppins;
+	text-transform: uppercase;
+    color: #df9547;
+    text-shadow:2px 2px black;
+}
+.banner-area h3{
+	padding-top: 0.5%;
+	font-size: 40px;
+	font-family: poppins;
+    color: #f5f4db;
+    text-shadow:2px 2px black
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 850px;
+	background: #f5f4db;
+	height: 1500px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+.kontakt {
+	color:  #252329;
+	float: left;
+
+}
+.kontakt1 {
+	color: #252329 ;
+	float: right;
+}
